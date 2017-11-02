@@ -1,0 +1,108 @@
+			/*top head section include nav menu-*/
+.page-header {
+	background-color: rgb(7, 34, 62);
+	background: linear-gradient(rgb(0, 0, 36), rgb(7, 34, 62));
+	color: white;
+	text-align: center;
+}
+.page-header a {
+	color: white;
+	font-size: 3em;
+}
+
+.page-title > * {
+	color: white;
+}
+.nav-tabs {
+	display: flex;
+}
+.nav-tabs li {
+	list-style: none;
+	background-color: rgb(0, 0, 36);
+	border-radius: 15px;
+	padding: 8px;
+	margin: 5px;
+	text-align: center;
+	color: white;
+}
+.nav-tabs li a {
+	color: white;
+	font-size: 1.1em;
+	text-decoration: none;
+	margin: 0 auto;
+	
+}
+
+.tab-content { flex: 1; }
+
+.social-img { width: 30px; }
+
+.navbar {text-align: center; font-size: 1.2em;}
+
+.navbar  a {
+	color: rgb(7, 34, 62);
+	font-weight: bolder;
+	padding-right: 10px;
+}
+
+
+/* end top head section include nav menu-*/
+
+/*---- sidebar styles ----*/
+.btn-group-vertical {
+	display: flex;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+
+
+}
+.btn-group-vertical > article {
+	flex: 1;
+	border: 2px groove #bbb;
+}
+ 
+
+article > img  {
+	width: 225px;
+	height: 143px;
+	margin-top: 0;
+	margin-left: 45px;
+}
+/* make the h3 align to rest of the content*/
+h3 {
+	margin-left: 45px;
+	font-weight: bolder;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+.box-toggleable {
+	background: rgb(18, 34, 62);
+	border: 1px groove royalblue;
+	font-size: 15px;
+	padding: 10px;
+	max-width: 200px;
+	flex: 1;
+}
+/*hide the list*/
+.box-toggleable .hide-content {
+	display: none;
+}
+/* show on hover*/
+.box-toggleable:hover .hide-content {
+display: block;
+background: maroon;
+}
+
+.hide-content {
+	padding: 10px;
+}
+

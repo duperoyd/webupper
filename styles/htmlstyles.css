@@ -1,0 +1,58 @@
+@import"main.css";
+
+/*body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%
+}*/
+.title {
+	width: 100%;
+	height: 250px;
+	font-size: 3em;
+	text-align: center;
+	background-color: rgb(16, 50, 84);
+	color: white;
+}
+
+.welcome {
+	background-color: rgb(7, 34, 62);
+	text-align: center;
+	font-size: 130%;
+	color: white;
+	padding: 50px 0 15px 0;
+	text-decoration:
+}
+table {
+	border: none;
+	padding-left: 40px;
+	font-size: 3.2em;
+	margin-top: 25px;
+}
+
+video, img {
+	max-width: 100%;
+	height: 50%;
+}
+th.subscribe {
+	color: rgb(7, 34, 62);
+}
+
+.bar-foot {
+	width: 100%;
+	height: 50px;
+	background-color: rgb(16, 50, 84);
+}
+
+.bar-foot ul {
+	padding-left: 70px;
+}
+.bar-foot li {
+	float: left;
+	padding: 0 20px 0 20px;
+	list-style: none;
+	
+}
+.bar-foot li  {
+	color: white;
+}
+

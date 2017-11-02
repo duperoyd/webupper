@@ -1,0 +1,18 @@
+.courses-containter {
+	//display: flex;
+	justify-content: space-between;
+
+}
+
+.box-block-courses {
+	flex: 1;
+	background-image: linear-gradient(rgb(7, 34, 62), rgb(98, 136, 181), rgb(7, 34, 62));
+	padding: 12px;
+
+}
+.box-block-courses a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+
+}
